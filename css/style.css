@@ -374,6 +374,9 @@ section{
 .timeline-item.left .timeline-content{
     margin-right: calc(50% + 40px);
 }
+.timeline-item.left > .timeline-content > h4{
+    color: #8eb1ff;
+}
 
 /* RIGHT */
 
@@ -387,11 +390,9 @@ section{
 .timeline-item.right .timeline-date{
     color: #74ff6b;
 }
-
-.timeline-item.right .timeline-role{
+.timeline-item.right > .timeline-content > h4{
     color: #74ff6b;
 }
-
 .timeline-item.right .timeline-icon{
     border-color: #74ff6b;
     box-shadow: 0 0 18px rgba(116,255,107,0.35);
@@ -462,9 +463,6 @@ section{
 .timeline-role{
     font-size: 20px;
     margin-bottom: 24px;
-
-    color: #8eb1ff;
-
     text-align: left;
 }
 
@@ -507,9 +505,6 @@ section{
 
     box-shadow: 0 0 18px rgba(110,161,255,0.35);
 }
-
-
-
 .timeline-icon span{
     font-size: 18px;
     color: white;
